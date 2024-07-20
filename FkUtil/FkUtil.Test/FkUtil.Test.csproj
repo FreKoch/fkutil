@@ -20,4 +20,8 @@
     <ProjectReference Include="..\FkUtil\FkUtil.csproj" />
   </ItemGroup>
 
+	<PropertyGroup>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
+
 </Project>

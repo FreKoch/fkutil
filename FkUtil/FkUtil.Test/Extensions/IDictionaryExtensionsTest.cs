@@ -10,6 +10,9 @@ namespace FkUtil.Test.Extensions
     [TestClass]
     public class IDictionaryExtensionsTest
     {
+        /// <summary>
+        /// Tests <see cref="IDictionaryExtensions.AddOrExtendCollection{TKey, TCollection, TValue}(IDictionary{TKey, TCollection}, TKey, TValue)"/>
+        /// </summary>
         [TestMethod]
         public void AddOrExtendCollectionTest() { 
 
